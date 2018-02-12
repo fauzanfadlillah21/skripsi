@@ -1,0 +1,35 @@
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Refresh -->
+
+    <item
+        android:id="@+id/panduan"
+        android:orderInCategory="90"
+        app:showAsAction="never"
+        android:title="Panduan"/>
+    <item
+        android:id="@+id/kritik"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Kritik Dan Saran"/>
+
+    <item
+        android:id="@+id/action_tentang"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:title="@string/action_tentangaplikasi"/>
+
+
+
+    <item android:id="@+id/refresh"
+        android:orderInCategory="102"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/stat_notify_sync_noanim"/>
+    <item android:id="@+id/cekupdate"
+        android:title="Check Update"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txttiket"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/putih"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID TIKET" />
+
+
+        <ImageView
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/imageView1"
+            android:layout_width="447dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.46" />
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:textColor="@color/putih"
+            android:background="@drawable/roundtampil"
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share" />
+        <Button
+            android:layout_marginTop="6dp"
+            android:textColor="@color/putih"
+            android:background="@drawable/roundtampil"
+            android:id="@+id/cetak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cetak" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

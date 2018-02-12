@@ -1,0 +1,36 @@
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.scanner.ScannerUpload">
+
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="101"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/scan"
+        android:orderInCategory="99"
+       android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/location"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_gps_fixed_white_24dp"
+        app:showAsAction="always" />
+</menu>
+    <!--<item-->
+    <!--android:id="@+id/update"-->
+    <!--android:orderInCategory="100"-->
+    <!--android:title="Update"-->
+    <!--app:showAsAction="never" />-->
+    <!--<item-->
+    <!--android:id="@+id/tambah"-->
+    <!--android:orderInCategory="99"-->
+    <!--android:title="Tambah Data"-->
+    <!--app:showAsAction="never" />-->

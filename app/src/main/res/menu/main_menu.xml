@@ -1,0 +1,21 @@
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/info"
+        android:orderInCategory="100"
+        android:title="Info"
+        app:showAsAction="never" />
+    <!--<item-->
+        <!--android:id="@+id/about"-->
+        <!--android:orderInCategory="101"-->
+        <!--android:title="About"-->
+        <!--app:showAsAction="never" />-->
+
+</menu>

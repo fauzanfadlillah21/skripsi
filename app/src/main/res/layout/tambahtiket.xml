@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Tambah Tiket"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20dp"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textSize="15dp"
+                android:id="@+id/no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textSize="15dp"
+                android:id="@+id/namaacara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kode Acara" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textSize="15dp"
+                android:id="@+id/agen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Agen" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textSize="15dp"
+                android:id="@+id/idtiket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID Tiket" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textSize="15dp"
+                android:id="@+id/jenistiket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jenis Tiket" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/roundtampil"
+            android:layout_marginTop="30dp"
+            android:id="@+id/simpan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Simpan Tiket" />
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

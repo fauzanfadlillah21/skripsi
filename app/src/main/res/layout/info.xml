@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="96dp">
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IMPLEMENTASI ENKRIPSI \n QR-CODE PADA APLIKASI \n TIKET HELLPRINT \n MENGGUNAKAN ALGORITMA \n VIGENERE CHIPER \n BERBASIS ANDROID "
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FAUZAN FADLILLAH IHSANI \n 2012081060 \n TEKNIK INFORMATIKA \n FAKULTAS ILMU KOMPUTER \n UNIVERSITAS KUNINGAN "
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:textColor="@color/tekslogin"
+            android:textStyle="bold"
+            android:id="@+id/link_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Copyright &#169; Fauzan Fadlillah Ihsani"
+            android:textSize="13dip" />
+    </LinearLayout>
+</ScrollView>

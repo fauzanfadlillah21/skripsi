@@ -1,0 +1,25 @@
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<resources>
+
+        <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">true</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+            <item name="android:windowActionBar">@null</item>
+        </style>
+
+    <style name="ResultButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="ShareButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
+

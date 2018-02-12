@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Order Tiket"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20dp"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <EditText
+                android:inputType="number"
+                android:textSize="15dp"
+                android:id="@+id/noktp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No ktp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textSize="15dp"
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama" />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <Spinner
+            android:layout_marginTop="5dp"
+            android:background="@drawable/spinner"
+            android:id="@+id/spinidtiket"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:visibility="gone"
+                android:textSize="15dp"
+                android:id="@+id/idtiket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID Tiket" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textSize="15dp"
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat" />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <RadioGroup
+                android:id="@+id/gender_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/malerb"
+                    android:text="Laki-Laki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:checked="true"/>
+                <RadioButton
+                    android:id="@+id/femalerb"
+                    android:text="Perempuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/roundtampil"
+            android:layout_marginTop="30dp"
+            android:id="@+id/simpan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Simpan" />
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

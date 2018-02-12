@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+                <!-- Customize your theme here. -->
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+                <item name="colorAccent">@color/colorAccent</item>
+                <!--<item name="android:windowBackground">@drawable/album8</item>-->
+                <item name="android:windowContentOverlay">@null</item>
+                <item name="android:elevation">0dp</item>
+
+        </style>
+</resources>

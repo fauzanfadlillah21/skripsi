@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools">
+
+    <barcodescanner.BarcodeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zxing_barcode_surface"/>
+
+    <barcodescanner.ViewfinderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zxing_viewfinder_view"/>
+
+    <TextView android:id="@+id/zxing_status_view"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center_horizontal"
+              android:background="@color/zxing_transparent"
+              android:textColor="@color/zxing_status_text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_gravity="center"
+        android:background="@color/zxing_transparent"
+        android:textColor="@color/zxing_status_text"
+        android:text="Scan Qr Code"/>
+    <ImageView
+        android:layout_marginTop="220dp"
+        android:layout_gravity="center"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<resources>
+    <string name="font_fontFamily_medium">sans-serif-medium</string>
+</resources>

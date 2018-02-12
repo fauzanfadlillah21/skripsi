@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+<EditText
+    android:layout_width="79dp"
+    android:layout_height="match_parent"
+    android:text="jjjjjjjjjjj"/>
+
+    <EditText
+        android:layout_width="139dp"
+        android:layout_height="match_parent"
+        android:text="jjjjjjjjjjj"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="jjjjjjjjjjj"/>
+</LinearLayout>

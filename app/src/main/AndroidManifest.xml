@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skripsi.fauzanfadlillah.tiket_hellprint">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.config.MyApplication_p"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_hp"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--android:noHistory="true"-->
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.Awal"
+
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="barcodescanner.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.agentiket.Login_agen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.cetakqrcode.Cetak_Qrcode"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.agentiket.Menu_agen"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.petugastiket.Login_petugas"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.petugastiket.Menu_petugas"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.acara.Acara"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.profil.Profil_petugas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.profil.Profil_agen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.isiagen.Tambah_tiket"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.Info"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.agentiket.Jual_tiket"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.tiketterjual.Terjual"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="com.skripsi.fauzanfadlillah.tiket_hellprint.agentiket.Menu_tiket"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+
+    </application>
+
+</manifest>

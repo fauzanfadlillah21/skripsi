@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c)Fauzan Fadlillah 2017
+  -->
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_marginTop="110dp"
+            android:textColor="@color/tekslogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MENU TIKET AGEN"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            />
+        <Button
+            android:id="@+id/tambahtiket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/roundtampil"
+            android:text="Tambah TIket"
+            android:visibility="gone"
+            android:textColor="#fff" />
+
+
+        <Button
+            android:id="@+id/jualtiket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundtampil"
+            android:text="order tiket"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/tiketterjual"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundtampil"
+            android:text="list Tiket order"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</ScrollView>
